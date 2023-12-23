@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lms.Api", "Lms.Api\Lms.Api.csproj", "{32EFF150-A186-423D-90F4-653BD59668AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lms.Domain", "Lms.Domain\Lms.Domain.csproj", "{9AA17B3C-F1B8-44F9-B12B-2121A75036E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{AEAF3B0A-0FBC-470F-B98D-F5876CB18C89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,10 @@ Global
 		{32EFF150-A186-423D-90F4-653BD59668AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32EFF150-A186-423D-90F4-653BD59668AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32EFF150-A186-423D-90F4-653BD59668AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA17B3C-F1B8-44F9-B12B-2121A75036E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA17B3C-F1B8-44F9-B12B-2121A75036E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA17B3C-F1B8-44F9-B12B-2121A75036E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA17B3C-F1B8-44F9-B12B-2121A75036E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

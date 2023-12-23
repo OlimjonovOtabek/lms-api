@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lms.Domain.Common
 {
-    internal class IDeletable
+    public interface IDeletable
     {
+        bool IsDeleted { get; set; }
     }
 }

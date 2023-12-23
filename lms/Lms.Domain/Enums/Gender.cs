@@ -1,7 +1,7 @@
-﻿namespace Lms.Domain.Enums.Entities
+﻿namespace Lms.Domain.Enums.Entities;
+
+public enum Gender
 {
-    public enum Gender
-    {
-        Male = 1, Female = 2
-    }
+    Male = 1, Female = 2
 }
+

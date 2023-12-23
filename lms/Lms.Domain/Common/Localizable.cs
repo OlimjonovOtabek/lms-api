@@ -9,7 +9,7 @@ namespace Lms.Domain.Common
     /// <summary>
     /// Базовый класс для сущностей поддерживающих локализацию 
     /// </summary>
-    public abstract class Localizable: Entity, ILocalizable
+    public abstract class Localizable : Entity, ILocalizable
     {
 
         /// <summary>

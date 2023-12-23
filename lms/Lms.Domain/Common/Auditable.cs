@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lms.Domain.Common
 {
-    internal class Auditable : Entity, IAuditable
+    public abstract class Auditable : Entity, IAuditable
     {
         /// <summary>
         /// Запись создан в 

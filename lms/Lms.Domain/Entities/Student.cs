@@ -7,6 +7,7 @@ namespace Lms.Domain.Entities
         public Student()
         {
             Attendances = new HashSet<Attendance>();
+            StudentGroups = new HashSet<StudentGroup>();
         }
         public string PhoneNumber { get; set; } = default!;
         public Guid CreatedBy { get; set; }
@@ -15,5 +16,6 @@ namespace Lms.Domain.Entities
         public DateTimeOffset UpdatedAt { get ; set ; }
 
         public ICollection<Attendance> Attendances { get; set; }
+        public ICollection<StudentGroup> StudentGroups { get; set; }
     }
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lms.Domain.Common
 {
-    internal class IAuditable
+    public interface IAuditable
     {
+        Guid CreatedBy { get; set; }
+        Guid UpdatedBy { get; set; }
+        DateTimeOffset CreatedAt { get; set; }
+        DateTimeOffset UpdatedAt { get; set; }
     }
 }

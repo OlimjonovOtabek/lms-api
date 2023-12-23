@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lms.Domain.Enums
 {
-    internal class Role
+    public enum Role
     {
+        Teacher, Admin
     }
 }
